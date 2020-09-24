@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CeltaWare.MonitorLogServices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IntervaloAtualizacao" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NomeServico" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CeltaWare</Value>
+    </Setting>
+    <Setting Name="UrlValidaTeste" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.10.2.85:9092/bsf</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

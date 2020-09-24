@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeltaWare.LogServices", "CeltaWare.LogServices\CeltaWare.LogServices.csproj", "{03EB878C-6353-4E3A-98E2-41A0B39D7041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CeltaWare.MonitorLogServices", "CeltaWare.MonitorLogServices\CeltaWare.MonitorLogServices.csproj", "{5963EF99-929F-4E2D-AEB7-DF97E0826F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03EB878C-6353-4E3A-98E2-41A0B39D7041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EB878C-6353-4E3A-98E2-41A0B39D7041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EB878C-6353-4E3A-98E2-41A0B39D7041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EB878C-6353-4E3A-98E2-41A0B39D7041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5963EF99-929F-4E2D-AEB7-DF97E0826F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5963EF99-929F-4E2D-AEB7-DF97E0826F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5963EF99-929F-4E2D-AEB7-DF97E0826F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5963EF99-929F-4E2D-AEB7-DF97E0826F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF376837-9138-470E-9396-27FF7B20004A}
+	EndGlobalSection
+EndGlobal
