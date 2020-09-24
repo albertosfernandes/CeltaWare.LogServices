@@ -110,5 +110,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CeltaWare.UtilitariosInfra.Telegram\CeltaWare.UtilitariosInfra.Telegram.csproj">
+      <Project>{4eebbf61-f84f-4f06-bc86-bd686e45a92f}</Project>
+      <Name>CeltaWare.UtilitariosInfra.Telegram</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

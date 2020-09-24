@@ -58,5 +58,41 @@ namespace CeltaWare.MonitorLogServices.Properties {
                 this["UrlValidaTeste"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string NomeServidor {
+            get {
+                return ((string)(this["NomeServidor"]));
+            }
+            set {
+                this["NomeServidor"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string UidTelegramToken {
+            get {
+                return ((string)(this["UidTelegramToken"]));
+            }
+            set {
+                this["UidTelegramToken"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string UidTelegramDestino {
+            get {
+                return ((string)(this["UidTelegramDestino"]));
+            }
+            set {
+                this["UidTelegramDestino"] = value;
+            }
+        }
     }
 }

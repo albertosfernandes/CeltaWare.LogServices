@@ -11,5 +11,14 @@
     <Setting Name="UrlValidaTeste" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://10.10.2.85:9092/bsf</Value>
     </Setting>
+    <Setting Name="NomeServidor" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UidTelegramToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UidTelegramDestino" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

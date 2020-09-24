@@ -63,6 +63,16 @@ namespace CeltaWare.MonitorLogServices
                 }
                 else
                 {
+                    //Vou tentar mais uma vez .. vai que volte nesse meio tempo!!
+                    System.Threading.Thread.Sleep(30000);
+                    myHttpWebResponse = (HttpWebResponse)myHttpWebRequest.GetResponse();
+                    if (myHttpWebResponse.StatusCode == HttpStatusCode.OK)
+                    {
+                        //opa deu certo !!
+                        myHttpWebResponse.Close();
+                        return true;
+                    }
+                    
                     myHttpWebResponse.Close();
                     return false;
                 }
